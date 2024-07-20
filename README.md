@@ -1,5 +1,12 @@
 # ElectrumSV for Linux
 
+## Notes
+
+- Your wallets will be stored in the `~/.electrum-sv` directory
+- This won't work on most Virtual Machines!
+- This script currently uses ElectrumSV v1.3.16
+- This script is relying on the official ElectrumSV source code: https://github.com/electrumsv/electrumsv
+
 ## Install
 
 - Download this repository
@@ -14,9 +21,8 @@
 
 - Run `./launch-electrum-sv.sh`
 
-## Notes
+## Uninstall
 
-- Your wallets will be stored in the `~/.electrum-sv` directory
-- This won't work on most Virtual Machines!
-- This script currently uses ElectrumSV v1.3.16
-- This script is relying on the official ElectrumSV source code: https://github.com/electrumsv/electrumsv
+- Stop ElectrumSV if it's still running
+- Run `./uninstall-electrum-sv.sh`
+- Optionally delete the `~/.electrum-sv` directory, which contains your wallet files
