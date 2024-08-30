@@ -12,14 +12,16 @@
 - Download this repository
 - Open a terminal in the repository directory
 - [Install Docker](https://docs.docker.com/engine/install) by following the instructions for your distribution. Scripts for Ubuntu and Fedora are included in this repository:
-  - `sudo ./docker/ubuntu.sh` ([Ubuntu](https://docs.docker.com/engine/install/fedora/#install-using-the-repository))
+  - `sudo ./docker/ubuntu.sh` ([Ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository))
   - `sudo ./docker/fedora.sh` ([Fedora](https://docs.docker.com/engine/install/fedora/#install-using-the-repository))
+  - `sudo ./docker/debian.sh` ([Debian](https://docs.docker.com/engine/install/debian/#install-using-the-repository))
+  - `sudo ./docker/debian-bookworm.sh` (LMDE, Kali Linux, etc.)
 - Reboot your computer
-- Run `./install-electrum-sv.sh`
+- Run `sudo ./install-electrum-sv.sh`
 
 ## Launch
 
-- Run `./launch-electrum-sv.sh`
+- Run `sudo ./launch-electrum-sv.sh`
 
 ## Uninstall
 
