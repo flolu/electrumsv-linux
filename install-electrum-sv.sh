@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t electrumsv-1.3.16 .
+docker build --network=host -t electrumsv-1.3.16 .
