@@ -37,6 +37,7 @@
 
 - Try running the scripts with `sudo`
 - Pasting texts might not work, you might need to type manually
+- Configure network: https://docs.gorillapool.io/electrumsv
 
 ### On Fedora Linux
 
