@@ -17,14 +17,31 @@
   - `sudo ./docker/debian.sh` ([Debian](https://docs.docker.com/engine/install/debian/#install-using-the-repository))
   - `sudo ./docker/debian-bookworm.sh` (LMDE, Kali Linux, etc.)
 - Reboot your computer
-- Run `sudo ./install-electrum-sv.sh`
+- Run `./install-electrum-sv.sh`
 
 ## Launch
 
-- Run `sudo ./launch-electrum-sv.sh`
+- Run `./launch-electrum-sv.sh`
 
 ## Uninstall
 
 - Stop ElectrumSV if it's still running
 - Run `./uninstall-electrum-sv.sh`
 - Optionally delete the `~/.electrum-sv` directory, which contains your wallet files
+
+## Troubleshooting
+
+> A list of things you can try if you encounter issues
+
+### In General
+
+- Try running the scripts with `sudo`
+- Pasting texts might not work, you might need to type manually
+
+### On Fedora Linux
+
+- `sudo dnf install qt`
+- `sudo dnf install qt5-qtwayland`
+- `sudo dnf install "xcb-util*"`
+- `sudo dnf install python-devel`
+- `pip install pyqt6`
