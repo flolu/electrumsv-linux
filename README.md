@@ -25,6 +25,8 @@
 
 ## Uninstall
 
+- If you get an error: `Unknown session type`, try setting it explicitly (e.g.: `XDG_SESSION_TYPE=x11 ./launch-electrum-sv.sh` or `XDG_SESSION_TYPE=tty ./launch-electrum-sv.sh`)
+  - You can find your windowing system under "System Details" (`x11` is for X11 and `tty` is for Wayland)
 - Stop ElectrumSV if it's still running
 - Run `./uninstall-electrum-sv.sh`
 - Optionally delete the `~/.electrum-sv` directory, which contains your wallet files
